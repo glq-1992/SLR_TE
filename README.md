@@ -1,7 +1,7 @@
 # Comb_CSLR
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/visual-alignment-constraint-for-continuous/sign-language-recognition-on-rwth-phoenix)](https://paperswithcode.com/sota/sign-language-recognition-on-rwth-phoenix?p=visual-alignment-constraint-for-continuous)
 
-This repo holds codes of the paper: Visual Alignment Constraint for Continuous Sign Language Recognition.(ICCV 2021) [[paper]](https://arxiv.org/abs/2104.02330)
+This repo holds codes of the paper: A New Large-Scale Combinatorial Benchmark for
+Sign Language Recognition
 
 ---
 ### Prerequisites
@@ -24,7 +24,7 @@ This repo holds codes of the paper: Visual Alignment Constraint for Continuous S
 
 The priorities of configuration files are: command line > config file > default values of argparse. To train the SLR model on CCUL, run the command below:
 
-`python main_EinT_2d.py --device 0
+python main_EinT_2d.py --device 0
 
 
 ### To Do List
@@ -32,9 +32,8 @@ The priorities of configuration files are: command line > config file > default 
 - [x] Pure python implemented evaluation tools.
 - [x] WAR and WER calculation scripts.
 
-### Citation
+### Relevant paper
 
-If you find this repo useful in your research works, please consider citing:
 
 ```latex
 @InProceedings{Min_2021_ICCV,
@@ -47,21 +46,3 @@ If you find this repo useful in your research works, please consider citing:
 }
 ```
 
-### Relevant paper
-
-Self-Mutual Distillation Learning for Continuous Sign Language Recognition[[paper]](https://openaccess.thecvf.com/content/ICCV2021/html/Hao_Self-Mutual_Distillation_Learning_for_Continuous_Sign_Language_Recognition_ICCV_2021_paper.html)
-
-```latex
-@InProceedings{Hao_2021_ICCV,
-    author    = {Hao, Aiming and Min, Yuecong and Chen, Xilin},
-    title     = {Self-Mutual Distillation Learning for Continuous Sign Language Recognition},
-    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
-    month     = {October},
-    year      = {2021},
-    pages     = {11303-11312}
-}
-```
-
-### Acknowledge
-
-We appreciate the help from Runpeng Cui, Hao Zhou@[Rhythmblue](https://github.com/Rhythmblue) and Xinzhe Han@[GeraldHan](https://github.com/GeraldHan) :)
