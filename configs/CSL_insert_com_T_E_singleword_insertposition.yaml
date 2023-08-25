@@ -1,0 +1,4 @@
+dataset_root: /disk2/dataset_glq/CSL-TJU_image_112
+dict_path: ./preprocess/signer_continuous_third_new/gloss_dict.npy     # CSL-TJU_insert_com_T_E_singleword_insertposition_third , 3004_combination_first; 3004_combination_first_signer_continuous
+evaluation_dir: ./evaluation/slr_eval
+evaluation_prefix: signer_continuous_third_new-groundtruth      # CSL-TJU_insert_com_T_E_singleword_insertposition_third , 3004_combination_first; csl_daily; signer_continuous_third; te_continuous_third; sentence_continuous_third; signer_continuous_third_new
